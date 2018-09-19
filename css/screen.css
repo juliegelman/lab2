@@ -274,12 +274,12 @@ input {
 	margin-left: auto;
 	text-align: center;
 }
-
-input[type="fName"], [type="lName"], input[type="email"], input[type="phone"],
- input[type="birthday"]{
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 12px;
+input[type=email],
+input[type=text],
+input[type=birthday],
+input[type=phone] {
+	width: 95%;
+	font-size: 1px;
 }
 /*
  {
