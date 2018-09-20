@@ -278,10 +278,8 @@ input {
 	margin-left: auto;
 	text-align: center;
 }
-input[type=email],
-input[type=text],
-input[type=birthday],
-input[type=phone] {
+
+input[type=text], input[type=email] {
 	width: 25%;
 	font-size: 15px;
 	padding: 8px;
