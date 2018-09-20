@@ -260,7 +260,9 @@ body {
 	font-size: 19px;
 
 }
-
+label{
+	padding: 10px;
+}
 
 h1  {
 	font-family: palatino;
@@ -271,6 +273,7 @@ h1  {
 }
 
 input {
+	padding: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -281,6 +284,7 @@ input[type=birthday],
 input[type=phone] {
 	width: 25%;
 	font-size: 15px;
+	padding: 8px;
 }
 /*
  {
@@ -301,5 +305,6 @@ input[type=phone] {
 input[type="submit"] {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top:20px;
+	margin-top:10px;
+
 }
