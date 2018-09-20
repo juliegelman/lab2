@@ -26,9 +26,15 @@
         <label>Birthday:</label>
         <input type="birthday" name="date" id="date" placeholder="MM/DD/YYY">
       </div>
-      <div class="submit">
-      		    	<input type="submit" value="Submit">
-      		    </div>
+              <button onclick="myFunction()">Submit</button>
+
+              <p id="demo"></p>
+
+              <script>
+              function myFunction() {
+                document.getElementById("demo").innerHTML = "Thank you, your info has been submitted!";
+              }
+              </script>
   </form>
   </fieldset>
 
