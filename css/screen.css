@@ -252,17 +252,18 @@ textarea {
 }
 
 body {
-	background-color: red;
+	background-color: #FFEBFC;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	font-family: "Sans Serif";
-	font-size: 30px;
+	font-family:bookman;
+	font-size: 19px;
 
 }
 
 
 h1  {
+	font-family: palatino;
 	text-align: center;
 	font-size: 50px;
 	color: #0e1413;
@@ -278,8 +279,8 @@ input[type=email],
 input[type=text],
 input[type=birthday],
 input[type=phone] {
-	width: 95%;
-	font-size: 1px;
+	width: 25%;
+	font-size: 15px;
 }
 /*
  {
